@@ -150,3 +150,38 @@ body {
   background-color: var(--linkedin);
 }
 
+@media screen and (max-width: 760px){
+  .card {
+      width: 35rem;
+      height: 30rem;
+  }
+  .header {
+      height: 9rem;
+  }
+  .information .foto {
+      width: 9.4rem;
+      height: 9.4rem;
+      border: 3px solid var(--white);
+      top: -60px;
+  }
+  .info h1 {
+      font-size: 3rem;
+      margin-top: 40px;
+  }
+  .info h3 {
+      font-size: 2rem;
+      margin-top: 10px;
+  }
+  .Redes {
+      margin-top: 15px;
+  }
+  .Redes img{
+      height: 1.8rem;
+  }
+  .button {
+      width: 4.3rem;
+      height: 3rem;
+      margin: 0 10px;
+      border-radius: 7px;
+  }
+}
